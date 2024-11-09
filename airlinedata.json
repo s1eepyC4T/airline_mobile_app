@@ -1,0 +1,88 @@
+{
+    "users": [
+      {
+        "userId": 1,
+        "username": "john_doe",
+        "password": "password123",
+        "bookings": [101, 102]
+      },
+      {
+        "userId": 2,
+        "username": "jane_smith",
+        "password": "password456",
+        "bookings": [103]
+      }
+    ],
+    "cities": [
+      {
+        "cityId": 1,
+        "name": "New York"
+      },
+      {
+        "cityId": 2,
+        "name": "Los Angeles"
+      },
+      {
+        "cityId": 3,
+        "name": "Chicago"
+      },
+      {
+        "cityId": 4,
+        "name": "Houston"
+      },
+      {
+        "cityId": 5,
+        "name": "Miami"
+      }
+    ],
+    "flights": [
+      {
+        "flightId": 101,
+        "flightNumber": "NY123",
+        "origin": "New York",
+        "destination": "Los Angeles",
+        "departureDate": "2024-12-01",
+        "departureTime": "09:00",
+        "arrivalTime": "12:00"
+      },
+      {
+        "flightId": 102,
+        "flightNumber": "LA456",
+        "origin": "Los Angeles",
+        "destination": "Chicago",
+        "departureDate": "2024-12-01",
+        "departureTime": "10:00",
+        "arrivalTime": "14:00"
+      },
+      {
+        "flightId": 103,
+        "flightNumber": "CH789",
+        "origin": "Chicago",
+        "destination": "Houston",
+        "departureDate": "2024-12-01",
+        "departureTime": "15:00",
+        "arrivalTime": "17:30"
+      }
+    ],
+    "bookings": [
+      {
+        "bookingId": 101,
+        "userId": 1,
+        "flightId": 101,
+        "status": "booked"
+      },
+      {
+        "bookingId": 102,
+        "userId": 1,
+        "flightId": 102,
+        "status": "booked"
+      },
+      {
+        "bookingId": 103,
+        "userId": 2,
+        "flightId": 103,
+        "status": "booked"
+      }
+    ]
+  }
+  
